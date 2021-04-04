@@ -1,0 +1,59 @@
+#header{
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 4px 15px -10px black;
+  width: 100%;
+}
+
+#header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(36, 63, 29);
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 50px;
+}
+
+#header a :hover{
+  border-bottom: 2px solid rgb(36, 63, 29);
+  text-shadow: 2px 2px rgba(128, 128, 128, 0.425);
+  font-size: 16px;
+  margin-bottom:0px;
+  margin-top: 13px;
+}
+.show-name {
+  margin: 0px;
+  margin-top: 12px;
+  margin-left: 5%;
+  width: 200px;
+  font-size: 25px;
+}
+
+.show-wallet{
+
+  width: 250px;
+
+}
+.header-links p{
+  justify-items: flex-start;
+
+}
+.header-links{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.header-buttons{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.header-button{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+

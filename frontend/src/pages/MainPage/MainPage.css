@@ -1,0 +1,16 @@
+.main-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 15px -10px black;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.main-text img {
+  max-width: fit-content;
+  align-self: center;
+}
+.main-text h1, h3 {
+padding: 20px;
+}

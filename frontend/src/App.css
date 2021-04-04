@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(236, 236, 236);
+}
+.App{
+  display:flex;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-items{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: rgb(36, 63, 29);
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+input {
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+label {
+  font-size: 20px;
+}

@@ -1,0 +1,10 @@
+export const UPDATE_USERDATA = 'UPDATE_USERDATA';
+export const UPDATE_USERSTATE = 'UPDATE_USERSTATE';
+export const MODIFY_USERDATA = 'MODIFY_USERDATA';
+export const RESET_STORE = 'RESET_STORE';
+
+export const LOAD_ITEMS = 'LOAD_ITEMS';
+export const ADD_ITEM = 'ADD_ITEM';
+export const REMOVE_ITEM = 'REMOVE_ITEM';
+
+export const REDUCTION_WALLET = 'REDUCTION_WALLET';
