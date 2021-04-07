@@ -17,7 +17,7 @@ export const itemsRepository = {
     FROM items
     INNER JOIN users
     on users.user_id = items.owner_id
-    where items.status = 'active' AND users.status = 'active';`;
+    where items.status = 'active' AND users.status = 'active' ORDER BY item_id DESC;`;
     try {
       const data = await db.query(SQL);
       return data.results;
